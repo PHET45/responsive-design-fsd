@@ -168,6 +168,12 @@ h3 {
 }
 
 @media only screen and (max-width:375px){
+  .topic{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
   .categories{
     display: flex;
     flex-direction: column;
